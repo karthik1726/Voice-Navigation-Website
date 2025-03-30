@@ -2,6 +2,7 @@
 
 ## Description
 The **Voice Navigation Website** is a web-based application that allows users to navigate a website using voice commands. Built using **HTML**, **CSS**, and **JavaScript**, it leverages the **Web Speech API** for voice recognition, providing a hands-free browsing experience. Users can interact with the website simply by speaking, making it more accessible and efficient.
+Project Link https://voice-navigation-website-kola-karthiks-projects.vercel.app/
 
 ## Features
 - Voice-controlled navigation for interactive web elements.
@@ -14,9 +15,6 @@ The **Voice Navigation Website** is a web-based application that allows users to
 - **CSS**: For styling the webpage and layout.
 - **JavaScript**: For handling functionality and integrating with the Web Speech API.
 - **Web Speech API**: For speech recognition to convert voice inputs into text.
-
-## Installation
-
 
 ### Prerequisites
 - A **web browser** (Chrome, Firefox, Safari recommended) with support for the Web Speech API.
@@ -68,12 +66,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Acknowledgements
 Special thanks to MDN Web Docs for their helpful documentation on the Web Speech API.
 Thanks to Vercel for providing an easy and efficient way to deploy the project.
-
-
-### How to Use:
-1. Copy the above content into a new file called `README.md` in the root of your GitHub project.
-2. Replace `[Your Vercel URL here]` with the URL where your project is deployed on Vercel.
-3. Commit and push this `README.md` to your repository on GitHub.
-
-Let me know if you need any further modifications or if there's anything else I can assist with!
-

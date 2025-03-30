@@ -1,7 +1,8 @@
 # Voice Navigation Website
 
 ## Description
-The **Voice Navigation Website** is a web-based application that allows users to navigate a website using voice commands. Built using **HTML**, **CSS**, and **JavaScript**, it leverages the **Web Speech API** for voice recognition, providing a hands-free browsing experience. Users can interact with the website simply by speaking, making it more accessible and efficient.
+The **Voice Navigation Website** is a web-based application that allows users to navigate a website using voice commands. Built using **HTML**, **CSS**, and **JavaScript**, it leverages the **Web Speech API** for voice recognition, providing a hands-free browsing experience. Users can interact with the website simply by speaking, making it more accessible and efficient.  
+
 Project Link https://voice-navigation-website-kola-karthiks-projects.vercel.app/
 
 ## Features

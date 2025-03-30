@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;
+    color: #f5f5f7;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to right, black, gray);
+    position: relative;
+}
+
+.logo h1 {
+    color: #e0e0e0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #e0e0e0;
+    font-size: 18px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #383838;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content li {
+    padding: 10px;
+}
+
+.dropdown-content a {
+    color: #f5f5f7;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    background-color: #f39c12;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.featured {
+    padding: 40px 20px;
+}
+
+.featured h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.games-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.game-card {
+    cursor: pointer;
+    width: 30%;
+    background-color: hsl(0, 0%, 7%);
+    padding: 20px;
+    text-align: center;
+}
+.game-card:hover{
+    background-color: #383838;
+}
+
+.game-card img {
+    width: 20%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #282828;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links li {
+    margin: 0 10px;
+}
+
+.social-links a {
+    color: #f5f5f7;
+    text-decoration: none;
+}
+
+/* Microphone button */
+.voice-nav-button {
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    left: 200px;
+    top: 50%;
+    
+    transform: translateY(-50%);
+}
+.active{
+    color: red;
+}

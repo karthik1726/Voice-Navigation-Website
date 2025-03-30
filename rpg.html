@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 10 RPG Games</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+
+        }
+
+        h1 {
+            text-align: center;
+            color: #ff5722;
+        }
+
+        .game-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+        }
+
+        .game-item {
+            background-color: #222;
+            width: 30%;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        .game-item img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .game-item h2 {
+            font-size: 18px;
+            color: #1db954;
+            margin: 10px 0;
+        }
+
+        .game-item p {
+            font-size: 14px;
+            margin: 5px 0;
+        }
+
+        .game-item .rating {
+            color: #ffdd57;
+            margin: 10px 0;
+        }
+
+        .game-item .download-link {
+            background-color: #1db954;
+            color: #ffffff;
+            padding: 10px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 14px;
+            margin-top: 10px;
+            display: inline-block;
+        }
+
+        .game-item .download-link:hover {
+            background-color: #1aa34a;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <br><br>
+        <h1>Top 10 RPG Games</h1>
+
+        <div class="game-list">
+
+            <!-- Game 1 -->
+            <div class="game-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/11/Dragon_Age_Inquisition.png" alt="Game 1 Logo">
+                <h2>Dragon Age: Inquisition</h2>
+                <p>Dragon Age: Inquisition is a 2014 action role-playing video game developed by BioWare and published by Electronic Arts. The third major game in the Dragon Age franchise, Inquisition is the sequel to Dragon Age II.</p>
+                <div class="rating">Rating: ⭐⭐⭐⭐☆</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+
+            <!-- Game 2 -->
+            <div class="game-item">
+                <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/2/29/Pillars_of_Eternity_Logo.jpg/800px-Pillars_of_Eternity_Logo.jpg" alt="Game 2 Logo">
+                <h2>Pillars of Eternity</h2>
+                <p>The game is a spiritual successor to the Baldur's Gate and Icewind Dale series, along with Planescape: Torment. </p>
+                <div class="rating">Rating: ⭐⭐⭐⭐☆</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+
+            <!-- Game 3 -->
+            <div class="game-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDYr5xk2OfK8Hjv493Qwxo9BuQjJt4JTJVmuOpMdW6wK3ckjpO" alt="Game 3 Logo">
+                <h2>Elden Ring</h2>
+                <p>Elden Ring is presented through a third-person perspective with players freely roaming its open world. The six main areas can be traversed using the player character's steed Torrent. Linear, hidden dungeons can be explored to find useful items.</p>
+                <div class="rating">Rating: ⭐⭐⭐⭐⭐</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+
+            <!-- Game 4 -->
+            <div class="game-item">
+                <img src="https://upload.wikimedia.org/wikipedia/en/8/80/Diablo_III_cover.png" alt="Game 4 Logo">
+                <h2>Diablo III</h2>
+                <p>Diablo III is a 2012 online-only action role-playing dungeon crawling game developed and published by Blizzard Entertainment as the third installment in the Diablo franchise.a</p>
+                <div class="rating">Rating: ⭐⭐⭐⭐☆</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+
+            <!-- Game 5 -->
+            <div class="game-item">
+                <img src="https://gamingbolt.com/wp-content/uploads/2022/06/diablo-4.jpg" alt="Game 5 Logo">
+                <h2>Diablo 4</h2>
+                <p>The core formula for the series gameplay revolves around gradually obtaining stronger equipment by defeating increasingly difficult enemies.</p>
+                <div class="rating">Rating: ⭐⭐⭐⭐⭐</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+
+            <!-- Game 6 -->
+            <div class="game-item">
+                <img src="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/30dd8syYR9JAPhV759qTQe/66e1f4978d8a6ff11201bc1c6dd7b7f9/acm-boxshot.jpg?imwidth=360" alt="Game 6 Logo">
+                <h2>Assassin's Creed</h2>
+                <p>Action role-playing games emphasize real-time combat where the player has direct control over the characters as opposed to turn or menu-based combat while still having a focus on character's stats in order to determine relative strength and abilities.</p>
+                <div class="rating">Rating: ⭐⭐⭐⭐☆</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+
+            <!-- Game 7 -->
+            <div class="game-item">
+                <img src="https://pbs.twimg.com/profile_images/1661475111978016768/5BYx1D12_400x400.png" alt="Game 7 Logo">
+                <h2>Dragon's Dogma 2</h2>
+                <p>Dragon's Dogma 2 is a 2024 action role-playing video game developed and published by Capcom. The sequel to Dragon's Dogma, the game is set in a fantasy-themed world parallel to the first game.</p>
+                <div class="rating">Rating: ⭐⭐⭐⭐⭐</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+
+            <!-- Game 8 -->
+            <div class="game-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGZdLzbGW8RO2YIL555redR6ofCaPd1XkFyTX9fk4_wxCHkVkHt4qptbsdRIUBGubRPFw&usqp=CAU" alt="Game 8 Logo">
+                <h2>Dark Souls II</h2>
+                <p>Dark Souls II is an entry in the Dark Souls series, known for its difficulty, as both bosses and standard enemies have the potential to defeat the player in only a few hits.</p>
+                <div class="rating">Rating: ⭐⭐⭐⭐☆</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+
+            <!-- Game 9 -->
+            <div class="game-item">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQWK-SDx4OfntmxtatRcvayGIasFANuli3URDMkbIVsuvsM6pFO" alt="Game 9 Logo">
+                <h2>Dragon Ball Fighter Z</h2>
+                <p>Dragon Ball FighterZ is a 2.5D fighting game co-developed by Arc System Works and Ecole Software and published by Bandai Namco Entertainment.</p>
+                <div class="rating">Rating: ⭐⭐⭐⭐☆</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+        </div>
+    </div>
+    <script>
+        function downloadAlert() {
+            alert("This Feature is Comming Soon..");
+        }
+    </script>
+</body>
+
+</html>

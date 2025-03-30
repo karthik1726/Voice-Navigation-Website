@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 10 Shooting Games</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+
+        }
+
+        h1 {
+            text-align: center;
+            color: #ff5722;
+        }
+
+        .game-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+        }
+
+        .game-item {
+            background-color: #222;
+            width: 30%;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        .game-item img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .game-item h2 {
+            font-size: 18px;
+            color: #1db954;
+            margin: 10px 0;
+        }
+
+        .game-item p {
+            font-size: 14px;
+            margin: 5px 0;
+        }
+
+        .game-item .rating {
+            color: #ffdd57;
+            margin: 10px 0;
+        }
+
+        .game-item .download-link {
+            background-color: #1db954;
+            color: #ffffff;
+            padding: 10px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 14px;
+            margin-top: 10px;
+            display: inline-block;
+        }
+
+        .game-item .download-link:hover {
+            background-color: #1aa34a;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <br><br>
+        <h1>Top 10 Shooting Games</h1>
+
+        <div class="game-list">
+
+            <!-- Game 1 -->
+            <div class="game-item">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/PlayerUnknown%27s_Battlegrounds_Mobile.webp/180px-PlayerUnknown%27s_Battlegrounds_Mobile.webp.png" alt="Game 1 Logo">
+                <h2>PUBG</h2>
+                <p>PUBG: Battlegrounds is a 2017 battle royale game developed by PUBG Studios and published by Krafton.</p>
+                <div class="rating">Rating: ⭐⭐⭐⭐☆</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+
+            <!-- Game 2 -->
+            <div class="game-item">
+                <img src="https://assets.xboxservices.com/assets/71/b5/71b50f29-5799-4be1-97ef-d58d57c9fe37.jpg?n=CoD-Modern-Warfare-III_GLP-Page-Hero-0_1083x1222_02.jpg" alt="Game 2 Logo">
+                <h2>Call of Duty</h2>
+                <p>Call of Duty is a military video game series and media franchise published by Activision, starting in 2003. The games were first developed by Infinity Ward, then by Treyarch and Sledgehammer Games.</p>
+                <div class="rating">Rating: ⭐⭐⭐⭐☆</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+
+            <!-- Game 3 -->
+            <div class="game-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlBTOqyFJo1EO8YFwMKje3lFUx-Sp3h9HVJw&s" alt="Game 3 Logo">
+                <h2>Free Fire</h2>
+                <p>Free Fire is a free-to-play battle royale game developed and published by Garena for Android and iOS.[4] It was released on 8 December 2017.</p>
+                <div class="rating">Rating: ⭐⭐⭐⭐⭐</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+
+            <!-- Game 4 -->
+            <div class="game-item">
+                <img src="https://e7.pngegg.com/pngimages/294/297/png-clipart-fortnite-battle-royale-playstation-4-xbox-one-video-game-board-game-xbox-grand-theft-auto-v-thumbnail.png" alt="Game 4 Logo">
+                <h2>Fortnite</h2>
+                <p>Create, play, and battle with friends for free in Fortnite. Be the last player standing in Battle Royale and Zero Build, experience a concert or live event, or discover over a million creator made games, including racing, parkour, zombie survival, and more.</p>
+                <div class="rating">Rating: ⭐⭐⭐⭐☆</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+
+            <!-- Game 5 -->
+            <div class="game-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Valorant_logo_-_pink_color_version.svg/330px-Valorant_logo_-_pink_color_version.svg.png" alt="Game 5 Logo">
+                <h2>Valorant</h2>
+                <p>Valorant is a team-based first-person tactical hero shooter set in the near future. Players play as one of a set of Agents, characters based on several countries and cultures around the world.</p>
+                <div class="rating">Rating: ⭐⭐⭐⭐⭐</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+
+            <!-- Game 6 -->
+            <div class="game-item">
+                <img src="https://upload.wikimedia.org/wikipedia/en/f/f8/Sniper_Fury.jpg" alt="Game 6 Logo">
+                <h2>Sniper Fury</h2>
+                <p>The game revolves around mechanics common for most sniper games, where the player has to eliminate a great majority of his targets from long distance.</p>
+                <div class="rating">Rating: ⭐⭐⭐⭐☆</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+
+            <!-- Game 7 -->
+            <div class="game-item">
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTCW28GsCLeM1DW8raOJNB46wibTlAAxLVzH_ED8MPSrCSc8lVbqbvmJ_jD13rI4fOKD1m1BQ" alt="Game 7 Logo">
+                <h2>ARK: Survival Evolved</h2>
+                <p>Ark: Survival Evolved is a 2017 action-adventure survival video game developed by Studio Wildcard.   </p>
+                <div class="rating">Rating: ⭐⭐⭐⭐⭐</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+
+            <!-- Game 8 -->
+            <div class="game-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuQimyt7Z0J5pTLS5_bdzsH421FmtDzql-sAvSvyQL8od6T3TXUnl_riuhCI5ZB6eZBR78" alt="Game 8 Logo">
+                <h2>Mech Arena</h2>
+                <p>Mech Arena is a fast-paced PvP mech shooter, bringing multiplayer mayhem wherever you are.</p>
+                <div class="rating">Rating: ⭐⭐⭐⭐☆</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+
+            <!-- Game 9 -->
+            <div class="game-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYCr-G2NXHo4mQhSGnwTntxnFwiRYKht2u7w&s" alt="Game 9 Logo">
+                <h2>War Robots</h2>
+                <p>War Robots is a mobile app game developed and published by the game developer Pixonic. It is a third-person shooter with real-time PvP battles in Multiplayer Online Battle Arena mode. </p>
+                <div class="rating">Rating: ⭐⭐⭐⭐☆</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+        </div>
+    </div>
+    <script>
+        function downloadAlert() {
+            alert("This Feature is Comming Soon..");
+        }
+    </script>
+</body>
+
+</html>

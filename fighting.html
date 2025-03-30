@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 10 Fighting Games</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+
+        }
+
+        h1 {
+            text-align: center;
+            color: #ff5722;
+        }
+
+        .game-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+        }
+
+        .game-item {
+            background-color: #222;
+            width: 30%;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        .game-item img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .game-item h2 {
+            font-size: 18px;
+            color: #1db954;
+            margin: 10px 0;
+        }
+
+        .game-item p {
+            font-size: 14px;
+            margin: 5px 0;
+        }
+
+        .game-item .rating {
+            color: #ffdd57;
+            margin: 10px 0;
+        }
+
+        .game-item .download-link {
+            background-color: #1db954;
+            color: #ffffff;
+            padding: 10px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 14px;
+            margin-top: 10px;
+            display: inline-block;
+        }
+
+        .game-item .download-link:hover {
+            background-color: #1aa34a;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <br><br>
+        <h1>Top 10 Fighting Games</h1>
+
+        <div class="game-list">
+
+            <!-- Game 1 -->
+            <div class="game-item">
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRieM51sj6aKWx2HFS-vJPC2XqONJ_84g8GnrQkYCQnQWVOF6SV" alt="Game 1 Logo">
+                <h2>Mortal Kombat 1</h2>
+                <p>Mortal Kombat 1 is a 2023 fighting game developed by NetherRealm Studios and published by Warner Bros.</p>
+                <div class="rating">Rating: ⭐⭐⭐⭐☆</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+
+            <!-- Game 2 -->
+            <div class="game-item">
+                <img src="https://i.redd.it/sfsg7b34uhxa1.jpg" alt="Game 2 Logo">
+                <h2>Brawlhalla</h2>
+                <p>Brawlhalla is a free-to-play fighting game developed by Blue Mammoth Games. It was originally released for macOS, PlayStation 4 and Windows in 2017, with ports for Nintendo Switch, Xbox One, Android and iOS released later. </p>
+                <div class="rating">Rating: ⭐⭐⭐⭐☆</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+
+            <!-- Game 3 -->
+            <div class="game-item">
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT_plRykU5juzkjeQQHeBqp7Y3dH-MbZySpgrmO_38S8hVgi9Nu" alt="Game 3 Logo">
+                <h2>Marvel vs. Capcom: Infinite</h2>
+                <p>Marvel vs. Capcom: Infinite is a 2017 fighting video game developed and published by Capcom for home consoles and computers. It is the sixth main entry in the Marvel vs. Capcom series of crossover games</p>
+                <div class="rating">Rating: ⭐⭐⭐⭐⭐</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+
+            <!-- Game 4 -->
+            <div class="game-item">
+                <img src="https://lwi.nexon.com/dd/mobile/common/about/img_aboutLogo.png" alt="Game 4 Logo">
+                <h2>DNF Duel</h2>
+                <p>DNF Duel is a fighting video game co-developed by Arc System Works, Eighting and Neople, and published by Nexon. It is a spin-off of the Dungeon & Fighter series and was released for the Microsoft Windows, PlayStation 4, and PlayStation 5 on 28 June 2022.</p>
+                <div class="rating">Rating: ⭐⭐⭐⭐☆</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+
+            <!-- Game 5 -->
+            <div class="game-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1TkvYm6XKlyvR18tM6RgSXSQDnL3ovzjLIw&s" alt="Game 5 Logo">
+                <h2>Dominator</h2>
+                <p>Immersive open-world action game with lots of freedom.</p>
+                <div class="rating">Rating: ⭐⭐⭐⭐⭐</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+
+            <!-- Game 6 -->
+            <div class="game-item">
+                <img src="https://m.media-amazon.com/images/I/91WOQqxfGmL._AC_UF1000,1000_QL80_.jpg" alt="Game 6 Logo">
+                <h2>Spider Man 2</h2>
+                <p>Play as a superhero in this adrenaline-fueled game.</p>
+                <div class="rating">Rating: ⭐⭐⭐⭐☆</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+
+            <!-- Game 7 -->
+            <div class="game-item">
+                <img src="https://www.snk-corp.co.jp/us/games/kof-xv/img/main/top_koflogo.png" alt="Game 7 Logo">
+                <h2>The King of Fighters XV</h2>
+                <p>The King of Fighters XV. SNK's legendary fighting series returns for its most expansive entry yet, offering veterans </p>
+                <div class="rating">Rating: ⭐⭐⭐⭐⭐</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+
+            <!-- Game 8 -->
+            <div class="game-item">
+                <img src="https://m.media-amazon.com/images/I/81524B+RIiL.jpg" alt="Game 8 Logo">
+                <h2>Street Fighter 6</h2>
+                <p>Street Fighter 6 is a 2023 fighting game developed and published by Capcom. It is the sixth main entry in the Street Fighter franchise, following Street Fighter V.</p>
+                <div class="rating">Rating: ⭐⭐⭐⭐☆</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+
+            <!-- Game 9 -->
+            <div class="game-item">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQWK-SDx4OfntmxtatRcvayGIasFANuli3URDMkbIVsuvsM6pFO" alt="Game 9 Logo">
+                <h2>Dragon Ball Fighter Z</h2>
+                <p>Dragon Ball FighterZ is a 2.5D fighting game co-developed by Arc System Works and Ecole Software and published by Bandai Namco Entertainment.</p>
+                <div class="rating">Rating: ⭐⭐⭐⭐☆</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+        </div>
+    </div>
+    <script>
+        function downloadAlert() {
+            alert("This Feature is Comming Soon..");
+        }
+    </script>
+</body>
+
+</html>

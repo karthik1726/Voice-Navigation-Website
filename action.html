@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 10 Puzzle Games</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+
+        }
+
+        h1 {
+            text-align: center;
+            color: #ff5722;
+        }
+
+        .game-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-around;
+        }
+
+        .game-item {
+            background-color: #222;
+            width: 30%;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        .game-item img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .game-item h2 {
+            font-size: 18px;
+            color: #1db954;
+            margin: 10px 0;
+        }
+
+        .game-item p {
+            font-size: 14px;
+            margin: 5px 0;
+        }
+
+        .game-item .rating {
+            color: #ffdd57;
+            margin: 10px 0;
+        }
+
+        .game-item .download-link {
+            background-color: #1db954;
+            color: #ffffff;
+            padding: 10px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 14px;
+            margin-top: 10px;
+            display: inline-block;
+        }
+
+        .game-item .download-link:hover {
+            background-color: #1aa34a;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <br><br>
+        <h1>Top 10 Action Games</h1>
+
+        <div class="game-list">
+
+            <!-- Game 1 -->
+            <div class="game-item">
+                <img src="https://etail.market/image/catalog/Fas/fast-paced-games-doom-eternal.jpg" alt="Game 1 Logo">
+                <h2>Hunter</h2>
+                <p>Fast-paced action game with stunning graphics.</p>
+                <div class="rating">Rating: ⭐⭐⭐⭐☆</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+
+            <!-- Game 2 -->
+            <div class="game-item">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/44/MAG_%28video_game%29.jpg/220px-MAG_%28video_game%29.jpg" alt="Game 2 Logo">
+                <h2>MAG</h2>
+                <p>A multiplayer action shooter with a massive player base.</p>
+                <div class="rating">Rating: ⭐⭐⭐⭐☆</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+
+            <!-- Game 3 -->
+            <div class="game-item">
+                <img src="https://img.itch.zone/aW1nLzE0ODcxMjc2LmpwZw==/315x250%23c/DRSLVw.jpg" alt="Game 3 Logo">
+                <h2>Sheepy</h2>
+                <p>An action-packed platformer full of adventure.</p>
+                <div class="rating">Rating: ⭐⭐⭐⭐⭐</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+
+            <!-- Game 4 -->
+            <div class="game-item">
+                <img src="https://easy-peasy.ai/cdn-cgi/image/quality=80,format=auto,width=700/https://fdczvxmwwjwpwbeeqcth.supabase.co/storage/v1/object/public/images/1d2a9cb3-5912-4fac-953b-66ae97b2da48/7f2d3c4a-cbea-47ad-bef5-986e8844bbf9.png" alt="Game 4 Logo">
+                <h2>Conquest</h2>
+                <p>Battle against fierce opponents in this epic action game.</p>
+                <div class="rating">Rating: ⭐⭐⭐⭐☆</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+
+            <!-- Game 5 -->
+            <div class="game-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1TkvYm6XKlyvR18tM6RgSXSQDnL3ovzjLIw&s" alt="Game 5 Logo">
+                <h2>Dominator</h2>
+                <p>Immersive open-world action game with lots of freedom.</p>
+                <div class="rating">Rating: ⭐⭐⭐⭐⭐</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+
+            <!-- Game 6 -->
+            <div class="game-item">
+                <img src="https://m.media-amazon.com/images/I/91WOQqxfGmL._AC_UF1000,1000_QL80_.jpg" alt="Game 6 Logo">
+                <h2>Spider Man 2</h2>
+                <p>Play as a superhero in this adrenaline-fueled game.</p>
+                <div class="rating">Rating: ⭐⭐⭐⭐☆</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+
+            <!-- Game 7 -->
+            <div class="game-item">
+                <img src="https://media.istockphoto.com/id/1333357575/vector/pixel-retro-arcade-game-style-font.jpg?s=612x612&w=0&k=20&c=S5BWWJHKlkoT51JVQ_t06ggeGDtvP07acFHcDS-PQHM=" alt="Game 7 Logo">
+                <h2>Game Over</h2>
+                <p>Navigate a futuristic world in this exciting action adventure.</p>
+                <div class="rating">Rating: ⭐⭐⭐⭐⭐</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+
+            <!-- Game 8 -->
+            <div class="game-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA23h9Q7XVcHKsAkYbf0l8KhHk7uMhVNL-Vw&s" alt="Game 8 Logo">
+                <h2>Space Z</h2>
+                <p>An arcade-style action game with retro-inspired graphics.</p>
+                <div class="rating">Rating: ⭐⭐⭐⭐☆</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+
+            <!-- Game 9 -->
+            <div class="game-item">
+                <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2605920/header.jpg?t=1728658389" alt="Game 9 Logo">
+                <h2>VOIN</h2>
+                <p>Take on hordes of enemies in this fast-paced action game.</p>
+                <div class="rating">Rating: ⭐⭐⭐⭐☆</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+
+            <!-- Game 10 -->
+            <div class="game-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFD4cg8yxTbhuJ-_5LQYteiM8U_g7GnFXYpg&s" alt="Game 10 Logo">
+                <h2>Chase 2</h2>
+                <p>An action-packed game with high-octane car chases.</p>
+                <div class="rating">Rating: ⭐⭐⭐⭐☆</div>
+                <a onclick="downloadAlert()" class="download-link">Download</a>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        function downloadAlert() {
+            alert("This Feature is Comming Soon..");
+        }
+    </script>
+</body>
+
+</html>
